@@ -21,9 +21,10 @@ brew install wget --enable-iri
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
-brew install memcached
+#brew install memcached
 brew install php54 --with-mysql
-brew install php54-xhprof php54-xdebug php54-uploadprogress php54-apc php54-memcache
+brew install php54-xhprof php54-xdebug php54-uploadprogress php54-apc
+#brew install php54-memcache
 
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
@@ -42,7 +43,9 @@ brew install rename
 brew install tree
 brew install webkit2png
 #brew install zopfli
-
+brew install ruby
+brew install dnsmasq
+#gem install compass
 #brew tap homebrew/versions
 #brew install lua52
 
