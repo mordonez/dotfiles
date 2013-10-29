@@ -26,28 +26,15 @@ brew install php54 --with-mysql
 brew install php54-xhprof php54-xdebug php54-uploadprogress php54-apc
 #brew install php54-memcache
 
-# These two formulae didn’t work well last time I tried them:
-#brew install homebrew/dupes/vim
-#brew install homebrew/dupes/screen
 brew install drush
-# Install other useful binaries
-#brew install ack
-#brew install exiv2
 brew install git
-#brew install imagemagick
 brew install lynx
-#brew install node
-#brew install pigz
 brew install rename
-#brew install rhino
 brew install tree
 brew install webkit2png
-#brew install zopfli
 brew install ruby
 brew install dnsmasq
-#gem install compass
-#brew tap homebrew/versions
-#brew install lua52
+gem install compass
 
 # Remove outdated versions from the cellar
 brew cleanup
